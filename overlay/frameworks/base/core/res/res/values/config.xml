@@ -180,4 +180,7 @@
         <item>376.2</item>
         <item>392.9</item>
     </array>
+
+    <!-- Is device Dual LTE capable -->
+    <bool name="config_dual_LTE_capability">true</bool>
 </resources>
