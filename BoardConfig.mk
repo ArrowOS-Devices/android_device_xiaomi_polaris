@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := polaris
 # Compile with SDClang
 TARGET_USE_SDCLANG := true
 
+# Wifi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := polaris_defconfig
 
