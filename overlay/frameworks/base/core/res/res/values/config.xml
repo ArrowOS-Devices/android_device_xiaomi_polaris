@@ -651,4 +651,11 @@
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
+	
+    <!-- Vibrator pattern for feedback about touching a virtual key -->
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>3</item>
+        <item>8</item>
+        <item>13</item>
+    </integer-array>
 </resources>
