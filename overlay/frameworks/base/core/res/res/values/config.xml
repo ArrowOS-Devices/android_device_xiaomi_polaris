@@ -430,5 +430,5 @@
 
     <integer name="config_proximityCheckTimeout">100</integer>
 
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
 </resources>
