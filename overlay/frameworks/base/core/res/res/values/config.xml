@@ -94,7 +94,7 @@
          in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
          This must be overridden in platform specific overlays -->
-	<integer-array name="config_autoBrightnessLcdBacklightValues">
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>4</item>
         <item>4</item>
         <item>4</item>
@@ -300,6 +300,20 @@
          dim before the device goes to sleep.
     -->
     <fraction name="config_maximumScreenDimRatio">20.000004%</fraction>
+
+    <!-- If true, the doze component is not started until after the screen has been
+         turned off and the screen off animation has been performed. -->
+    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+
+    <!-- Screen brightness when dozing. -->
+    <integer name="config_screenBrightnessDoze">7</integer>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+
+    <!-- Whether auto brightness works while dozing -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+    <bool name="config_displayBrightnessBucketsInDoze">false</bool>
 	
     <!-- Other brightness configs. -->
     <bool name="config_automatic_brightness_useacc">true</bool>
