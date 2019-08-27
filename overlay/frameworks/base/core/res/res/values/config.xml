@@ -409,13 +409,6 @@
     <integer name="config_ultralow_brightness">7</integer>
     
     <fraction name="config_dimBehindFadeDuration">100.0%</fraction>
-	
-    <!-- Vibrator pattern for feedback about touching a virtual key -->
-    <integer-array name="config_virtualKeyVibePattern">
-        <item>3</item>
-        <item>8</item>
-        <item>13</item>
-    </integer-array>
 
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
