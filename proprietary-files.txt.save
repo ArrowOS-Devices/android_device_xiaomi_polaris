@@ -59,6 +59,7 @@ vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so
 vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so
 vendor/lib64/libarcsoft_high_dynamic_range.so
 vendor/lib64/libarcsoft_supernight.so
+<<<<<<
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxstatscore.so
@@ -101,6 +102,13 @@ vendor/lib/camera/components/com.mi.node.aiasd.so
 vendor/lib/camera/components/com.morpho.node.videorefiner.so
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
+<<<<<<< HEAD
+=======
+vendor/lib/camera/components/com.arcsoft.node.smoothtransition.so
+vendor/lib/camera/components/com.qti.node.photosolid.so
+vendor/lib/camera/components/com.qti.node.eisv2.so
+vendor/lib/camera/components/com.arcsoft.node.realtimebokeh.so
+>>>>>>> 35e2fd2... dipper: drop some non-working libs
 vendor/lib/camera/components/com.qti.hvx.addconstant.so
 vendor/lib/camera/components/com.qti.hvx.binning.so
 vendor/lib/camera/components/com.qti.node.dummyrtb.so
@@ -147,7 +155,12 @@ vendor/lib/libarcsoft_low_light_hdr.so
 vendor/lib/libarcsoft_portrait_lighting.so
 vendor/lib/libarcsoft_portrait_lighting_c.so
 vendor/lib/libarcsoft_supernight.so
+<<<<<<< HEAD
+vendor/lib/libbinder.so
 vendor/lib/libc++_shared.so
+=======
+vendor/lib/libcamera_dirty.so
+>>>>>>> 35e2fd2... dipper: drop some non-working libs
 vendor/lib/libcamera_scene.so
 vendor/lib/libcamxfdalgov7.so
 vendor/lib/libcamxfdengine.so
