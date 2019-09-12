@@ -20,7 +20,7 @@ BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:9/PKQ1.180729.001/V10.2.2.0.PDGMIXM
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="polaris-user 9 PKQ1.180729.001 V10.2.2.0.PDGMIXM release-keys" \
-    PRODUCT_NAME="polaris" \
-    TARGET_DEVICE="polaris"
+    PRODUCT_DEVICE="polaris" \
+    PRODUCT_NAME=="polaris"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
