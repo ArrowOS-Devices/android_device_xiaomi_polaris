@@ -191,7 +191,7 @@
          be picked. Anyone who wants to disable the overlay mechanism can set it
          to false.
          -->
-    <bool name="config_enableNetworkLocationOverlay" translatable="false">false</bool>
+    <bool name="config_enableNetworkLocationOverlay" translatable="false">true</bool>
 
     <!-- When the screen is turned on, the previous estimate of the ambient light level at the time
          the screen was turned off is restored and is used to determine the initial screen
