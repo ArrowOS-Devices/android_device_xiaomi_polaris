@@ -9,6 +9,8 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 # Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+DEVICE_MAINTAINER := palaych
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_polaris
 PRODUCT_DEVICE := polaris
