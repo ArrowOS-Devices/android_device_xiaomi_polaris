@@ -11,6 +11,8 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 
 DEVICE_MAINTAINER := palaych
 
+TARGET_EXCLUDE_LAWNCHAIR := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_polaris
 PRODUCT_DEVICE := polaris
