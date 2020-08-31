@@ -10,8 +10,8 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 DEVICE_MAINTAINER := palaych
-
 TARGET_EXCLUDE_LAWNCHAIR := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_polaris
