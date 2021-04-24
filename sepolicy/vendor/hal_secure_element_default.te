@@ -1,4 +1,2 @@
 allow hal_secure_element_default nxpnfc_hwservice:hwservice_manager find;
-allow hal_secure_element_default vendor_hal_qteeconnector_hwservice:hwservice_manager find;
 add_hwservice(hal_secure_element_default, nxpese_hwservice)
-binder_call(hal_secure_element_default, vendor_hal_qteeconnector_qti)
